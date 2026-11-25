@@ -1,0 +1,159 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    127.0.0.1             127.0.0.1             TCP      74     35686 → 8080 [SYN] Seq=0 Win=65495 Len=0 MSS=65495 SACK_PERM TSval=1035646050 TSecr=0 WS=128
+
+Frame 1: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 35686, Dst Port: 8080, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.000024055    127.0.0.1             127.0.0.1             TCP      74     8080 → 35686 [SYN, ACK] Seq=0 Ack=1 Win=65483 Len=0 MSS=65495 SACK_PERM TSval=1035646050 TSecr=1035646050 WS=128
+
+Frame 2: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 8080, Dst Port: 35686, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.000043060    127.0.0.1             127.0.0.1             TCP      66     35686 → 8080 [ACK] Seq=1 Ack=1 Win=65536 Len=0 TSval=1035646050 TSecr=1035646050
+
+Frame 3: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 35686, Dst Port: 8080, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.001515102    127.0.0.1             127.0.0.1             TCP      71     35686 → 8080 [PSH, ACK] Seq=1 Ack=1 Win=65536 Len=5 TSval=1035646051 TSecr=1035646050 [TCP segment of a reassembled PDU]
+
+Frame 4: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 35686, Dst Port: 8080, Seq: 1, Ack: 1, Len: 5
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 0.001530701    127.0.0.1             127.0.0.1             TCP      66     8080 → 35686 [ACK] Seq=1 Ack=6 Win=65536 Len=0 TSval=1035646051 TSecr=1035646051
+
+Frame 5: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 8080, Dst Port: 35686, Seq: 1, Ack: 6, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 0.001567019    127.0.0.1             127.0.0.1             TCP      71     35686 → 8080 [PSH, ACK] Seq=6 Ack=1 Win=65536 Len=5 TSval=1035646051 TSecr=1035646051 [TCP segment of a reassembled PDU]
+
+Frame 6: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 35686, Dst Port: 8080, Seq: 6, Ack: 1, Len: 5
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 0.001572239    127.0.0.1             127.0.0.1             TCP      66     8080 → 35686 [ACK] Seq=1 Ack=11 Win=65536 Len=0 TSval=1035646051 TSecr=1035646051
+
+Frame 7: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 8080, Dst Port: 35686, Seq: 1, Ack: 11, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 0.001589021    127.0.0.1             127.0.0.1             TCP      69     35686 → 8080 [PSH, ACK] Seq=11 Ack=1 Win=65536 Len=3 TSval=1035646051 TSecr=1035646051 [TCP segment of a reassembled PDU]
+
+Frame 8: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 35686, Dst Port: 8080, Seq: 11, Ack: 1, Len: 3
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 0.001592026    127.0.0.1             127.0.0.1             TCP      66     8080 → 35686 [ACK] Seq=1 Ack=14 Win=65536 Len=0 TSval=1035646051 TSecr=1035646051
+
+Frame 9: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 8080, Dst Port: 35686, Seq: 1, Ack: 14, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 0.001606253    127.0.0.1             127.0.0.1             TCP      70     35686 → 8080 [PSH, ACK] Seq=14 Ack=1 Win=65536 Len=4 TSval=1035646051 TSecr=1035646051 [TCP segment of a reassembled PDU]
+
+Frame 10: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 35686, Dst Port: 8080, Seq: 14, Ack: 1, Len: 4
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 0.001608928    127.0.0.1             127.0.0.1             TCP      66     8080 → 35686 [ACK] Seq=1 Ack=18 Win=65536 Len=0 TSval=1035646051 TSecr=1035646051
+
+Frame 11: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 8080, Dst Port: 35686, Seq: 1, Ack: 18, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 0.001623225    127.0.0.1             127.0.0.1             TCP      71     35686 → 8080 [PSH, ACK] Seq=18 Ack=1 Win=65536 Len=5 TSval=1035646051 TSecr=1035646051 [TCP segment of a reassembled PDU]
+
+Frame 12: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 35686, Dst Port: 8080, Seq: 18, Ack: 1, Len: 5
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 0.001625980    127.0.0.1             127.0.0.1             TCP      66     8080 → 35686 [ACK] Seq=1 Ack=23 Win=65536 Len=0 TSval=1035646051 TSecr=1035646051
+
+Frame 13: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 8080, Dst Port: 35686, Seq: 1, Ack: 23, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 0.001639896    127.0.0.1             127.0.0.1             TCP      69     35686 → 8080 [PSH, ACK] Seq=23 Ack=1 Win=65536 Len=3 TSval=1035646051 TSecr=1035646051 [TCP segment of a reassembled PDU]
+
+Frame 14: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 35686, Dst Port: 8080, Seq: 23, Ack: 1, Len: 3
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 0.001642531    127.0.0.1             127.0.0.1             TCP      66     8080 → 35686 [ACK] Seq=1 Ack=26 Win=65536 Len=0 TSval=1035646051 TSecr=1035646051
+
+Frame 15: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 8080, Dst Port: 35686, Seq: 1, Ack: 26, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 0.001656998    127.0.0.1             127.0.0.1             TCP      74     35686 → 8080 [PSH, ACK] Seq=26 Ack=1 Win=65536 Len=8 TSval=1035646051 TSecr=1035646051 [TCP segment of a reassembled PDU]
+
+Frame 16: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 35686, Dst Port: 8080, Seq: 26, Ack: 1, Len: 8
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 0.001659653    127.0.0.1             127.0.0.1             TCP      66     8080 → 35686 [ACK] Seq=1 Ack=34 Win=65536 Len=0 TSval=1035646051 TSecr=1035646051
+
+Frame 17: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 8080, Dst Port: 35686, Seq: 1, Ack: 34, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 2.002554307    127.0.0.1             127.0.0.1             TCP      66     35686 → 8080 [FIN, ACK] Seq=34 Ack=1 Win=65536 Len=0 TSval=1035648052 TSecr=1035646051
+
+Frame 18: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 35686, Dst Port: 8080, Seq: 34, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 2.003387911    127.0.0.1             127.0.0.1             TCP      66     8080 → 35686 [FIN, ACK] Seq=1 Ack=35 Win=65536 Len=0 TSval=1035648053 TSecr=1035648052
+
+Frame 19: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 8080, Dst Port: 35686, Seq: 1, Ack: 35, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 2.003448916    127.0.0.1             127.0.0.1             TCP      66     35686 → 8080 [ACK] Seq=35 Ack=2 Win=65536 Len=0 TSval=1035648053 TSecr=1035648053
+
+Frame 20: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 35686, Dst Port: 8080, Seq: 35, Ack: 2, Len: 0
